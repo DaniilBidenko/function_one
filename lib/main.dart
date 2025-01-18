@@ -12,6 +12,13 @@ summary () {
 }
  
 summary();
+
+
+visual () {
+    print('Привет, я-${name}, мой возраст-${age}');
+}
+
+visual();
 }
 
 
