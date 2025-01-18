@@ -19,6 +19,15 @@ visual () {
 }
 
 visual();
+
+
+
+multiplication (){
+   return age * a * b;
+}
+
+final double resultat = multiplication();
+print(resultat);
 }
 
 
