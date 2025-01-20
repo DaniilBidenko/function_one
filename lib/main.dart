@@ -28,6 +28,20 @@ multiplication (){
 
 final double resultat = multiplication();
 print(resultat);
+
+comparison (double multiplication) {
+    if (multiplication > 20) {
+        print('Больше');
+    }
+    else {
+        multiplication < 20;
+        print('Меньше');
+    }
+    
+}
+
+print(comparison(23));
+
 }
 
 
