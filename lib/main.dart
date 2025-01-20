@@ -8,10 +8,11 @@ final String book = 'АБВГдейка';
 
 
 summary () {
-    print(a + b);
+   return a + b;
 }
- 
-summary();
+final double resultatone = summary();
+ print(resultatone);
+
 
 
 visual () {
@@ -26,7 +27,7 @@ multiplication (){
    return age * a * b;
 }
 
-final double resultat = multiplication();
+final resultat = multiplication();
 print(resultat);
 
   comparison (double multiplication) {
@@ -41,6 +42,14 @@ print(resultat);
 }
  print (comparison(23));
 
+
+multiplicationone () {
+   return resultatone * resultat;
+}
+
+final double resultatik = multiplicationone();
+print(resultatik);
+
 massive () {
     print(name);
     print(age);
@@ -49,6 +58,7 @@ massive () {
     print(book);
     print(summary());
     print(comparison(23));
+    print(resultatik);
 
 }
 
