@@ -29,7 +29,7 @@ multiplication (){
 final double resultat = multiplication();
 print(resultat);
 
-comparison (double multiplication) {
+  comparison (double multiplication) {
     if (multiplication > 20) {
         print('Больше');
     }
@@ -39,9 +39,20 @@ comparison (double multiplication) {
     }
     
 }
+ print (comparison(23));
 
-print(comparison(23));
+massive () {
+    print(name);
+    print(age);
+    print(a);
+    print(b);
+    print(book);
+    print(summary());
+    print(comparison(23));
 
+}
+
+massive();
 }
 
 
